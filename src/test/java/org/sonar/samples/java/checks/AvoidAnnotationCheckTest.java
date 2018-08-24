@@ -31,7 +31,7 @@ public class AvoidAnnotationCheckTest {
 		AvoidAnnotationRule check = new AvoidAnnotationRule();
 
 		// define the forbidden annotation name
-		check.name = "BeforeClass";
+		check.name = "Zuper";
 
 		// Verifies that the check will raise the adequate issues with the expected
 		// message.

@@ -13,7 +13,7 @@ class AvoidAnnotationCheck {
 
   }
 
-  @BeforeClass
+  @Zuper
   public void aMethod() {
 
   }
