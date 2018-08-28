@@ -13,8 +13,8 @@ class AvoidAnnotationCheck {
 
   }
 
-  @Zuper
-  public void aMethod() {
+  @Zuper // Noncompliant
+  public void bMethod() {
 
   }
 
