@@ -10,15 +10,15 @@ node {
     // Mark the code build 'stage'....
     stage('Build') {
       // Run the maven build
-      sh "ls;cd java-custom-rules;ls;mvn clean;mvn compile"
+      sh "ls;ls;mvn clean;mvn compile"
     }
     stage('Test') {
-        sh "ls;cd java-custom-rules;ls;mvn test -Dtest=mvn test -Dtest=AvoidAnnotationCheckTest"
+        sh "ls;mvn test -Dtest=mvn test -Dtest=AvoidAnnotationCheckTest"
     }
     
     stage('Analysis SonarQube') {
       withSonarQubeEnv('SonarQube') {
-        sh "ls;cd java-custom-rules;ls;mvn sonar:sonar -Dsonar.login=admin -Dsonar.password=admin"
+        sh "ls;mvn sonar:sonar -Dsonar.login=admin -Dsonar.password=admin"
       }
     }
 
