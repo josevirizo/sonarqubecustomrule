@@ -146,7 +146,7 @@
 					<target>1.7</target>
 					<fork>true</fork>
 					<encoding>UTF-8</encoding>
-					<executable>/usr/java/jdk1.8.0_171-amd64/bin/javac</executable>
+					<!-- <executable>/usr/java/jdk1.8.0_171-amd64/bin/javac</executable> -->
 				</configuration>
 			</plugin>
 
