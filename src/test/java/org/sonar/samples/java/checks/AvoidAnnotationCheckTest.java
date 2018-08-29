@@ -26,7 +26,8 @@ public class AvoidAnnotationCheckTest {
 
 	@Test
 	public void detected() {
-
+		//TODO: testing this clause on SonarQube 
+		
 		// Use an instance of the check under test to raise the issue.
 		AvoidAnnotationRule check = new AvoidAnnotationRule();
 
